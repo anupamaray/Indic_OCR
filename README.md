@@ -30,7 +30,7 @@ cd Downloads/boost_1_59_0/
 ./bootstrap.sh
 sudo ./b2
 sudo ./b2 install
-cd ..
+
 --------------------------------------
 
 Installing netcdf:
@@ -39,7 +39,7 @@ cd netcdf-4.0/
 CFLAGS=-fpic ./configure
 sudo make install
 make check
-cd ..
+
 --------------------------------------------
 for netCDF operator: install nco from software centre
 
@@ -48,7 +48,7 @@ Installing ScientificPython:
 cd ScientificPython-2.8.1/
 sudo python setup.py build
 sudo python setup.py install
-cd .. 
+ 
 --------------------------------------------
 
 
